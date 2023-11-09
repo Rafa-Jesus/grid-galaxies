@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background: #121214;
+    padding: 62px 110px;
+
+    place-content: center;
+}
+
+header{
+    margin-bottom: 63px;
+}
+
+header h1{
+    color: #02799D;
+    font-size: 58px;
+}
+
+header p{
+    color: #E1E1E6;
+    font-size: 32px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+
+
+    row-gap: 48px;
+    column-gap: 62px;
+}
+
+.card{
+    border: 2px solid #323238;
+    border-radius: 8px;
+
+    background: #202024;
+}
+
+.card img{
+    border-radius: 8px 8px 0 0;
+}
+
+.card h2{
+    color: #E1E1E6;
+
+    font-size: 36px;
+    font-weight: 900;
+
+    padding: 24px 32px 0px;
+}
+
+.card p{
+    color: #C4C4CC;
+
+    font-size: 18px;
+    padding: 24px 32px 32px;
+}
+
